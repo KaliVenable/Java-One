@@ -21,5 +21,17 @@ y = 6;
 /* This defines y as six*/
 var u = x * y;
 /* This defines u as x times y */
+var first = 'Kali';
+/* This defines first as Kali */
+var middle = 'McKayla';
+/* This defines middle as McKayla */
+var last = 'Venable';
+/* This defines last as Venable */
+var name = first + middle + last;
+/* This defines name as first plus middle plus last*/
+console, log(name)
+/* This logs name value into console*/
+var statement ='My name is'+ name;
+/* This defines statement as "my name is" plus name value
 </Script>
 </html>

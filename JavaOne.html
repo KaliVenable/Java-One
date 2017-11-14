@@ -1,0 +1,52 @@
+<html>
+<script>
+var x = 5;
+/* This defines x as five */
+var y = 3;
+/* This defines y as three */
+var z = x * y;
+/* This defines z as x times y */
+console.log(z);
+/* this logs value of z to console */
+var a = 4;
+/* This defines a as four*/
+var b = 8;
+/* This defines b as eight */
+var c = a * b;
+/* This defines c as a times b */
+console.log(c);
+var first  = prompt('What is your first name?');
+/* This prompts user to enter first name */
+var middle  = prompt('What is your middle name?');
+/* This prompts user to enter middle name */
+var last  = prompt('What is your last name?');
+/* This prompts user to enter last name */
+var space = ' ';
+/* defined space*/
+var name = first + space + middle + space + last;
+/* This defines name as first plus middle plus last*/
+console.log(name);
+/* This logs name value into console*/
+var statement = 'my name is '+ name;
+/* This defines statement as "my name is" plus name value */
+var greeting = 'Hi, ' + statement;
+/* defines greeting */
+alert(greeting);
+/* alerts greeting */
+function squaredNumber(amount, number){
+  var number = prompt('Enter a number');
+  var squared = number * number;
+  alert(squared);
+}
+function fullName(first, middle, last){
+  var fullName = first + ' ' + middle + ' ' + last;
+  alert(fullName);
+  }
+  fullName('Anna','Marie','Smith');
+  console.log(fullName);
+  fullName('Lauren','Green','Catshe');
+  console.log(fullName);
+  fullName('Sam','Dart','Kellin');
+  console.log(fullName);
+</script>
+</html>
